@@ -63,7 +63,7 @@ class HTTPClient(object):
         # establish a socket connection and connect to the host
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket_status = self.socket.connect((host, port))
-        return None socket_status
+        return socket_status
 
     def get_code(self, data):
         try:
@@ -73,7 +73,7 @@ class HTTPClient(object):
         return code
 
     def get_headers(self,data):
-        return None # you need to implement this!
+        return None
 
     def get_body(self, data):
         try:
