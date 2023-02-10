@@ -28,8 +28,8 @@ PORT = 80 #default port
 
 CONTENT_TYPE = "application/x-www-form-urlencoded"
 #USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"
-#https://user-agents.net/string/mozilla-5-0-x11-ubuntu-linux-x86-64-rv-96-0-gecko-20100101-firefox-96-0
-USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
+#https://www.whatismybrowser.com/guides/the-latest-user-agent/firefox
+USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0"
 
 
 def help():
